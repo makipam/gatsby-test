@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `First Gatsby Test Site`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Gatsby Test Site`,
+    siteUrl: `https://gatsbytestmain80688.gatsbyjs.io/`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -12,6 +12,13 @@ module.exports = {
         rule: {
           include: /svg/
         }
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
       }
     },
   ],
