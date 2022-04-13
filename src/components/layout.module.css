@@ -1,6 +1,6 @@
 .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 80%;
     font-family: sans-serif;
   }
   
@@ -17,4 +17,5 @@
   }
   .nav-link-text {
     color: black;
+    font-size: larger;
   }
